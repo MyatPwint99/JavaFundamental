@@ -31,7 +31,7 @@ public class Tuto1NumPattern {
         String res;
     do {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter Number : ");
+        System.out.println("Enter Number : ");
         int num = sc.nextInt();
         System.out.println();
         for (int i = 1; i <= num; i++) {
@@ -51,7 +51,7 @@ public class Tuto1NumPattern {
             for (int k = i; k <= num; k++) {
                 System.out.print(k + " ");
             }
-
+            System.out.println();
         }
 
         System.out.println();
